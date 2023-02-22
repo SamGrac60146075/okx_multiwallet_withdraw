@@ -8,7 +8,11 @@ Okx 多地址提幣功能
 
 ### Dependencies
 
+python
+https://www.python.org/downloads/
+
 okx-api-v5
+https://github.com/coinrising/okex-api-v5/
 ### Installing
 
 到okex-api-v5目錄下
