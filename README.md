@@ -41,8 +41,8 @@ Need to add the address to whitelist or you can't use
 
 Contributors names and contact info
 
-ex. Liz (https://t.me/liiiztw)
-ex. Griselda (https://twitter.com/Griseld97265984)
+Liz (https://t.me/liiiztw)
+Griselda (https://twitter.com/Griseld97265984)
 
 ## Version History
 
