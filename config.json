@@ -1,0 +1,9 @@
+{
+    "token": "ETH",
+    "network": "ETH-ERC20",
+    "amount": 0.92,
+    "delay": { "min": 5, "max": 10 },
+    "key":"",
+    "secret":"",
+    "passphrase":""
+}
