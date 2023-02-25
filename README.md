@@ -26,6 +26,7 @@ https://github.com/coinrising/okex-api-v5/
 1. hold down shift key and right-click
 2. Open PowerShell
 3. python setup.py install
+4. pip install pandas
 ```
 ### Executing program
 
