@@ -64,7 +64,7 @@ def coin_withdraw(ccy, amt, dest, toAddr, pwd, fee):
     result = response.json()
 
     if response.status_code == 200:
-        result = f"提款成功{result}"
+        result = f"提款成功"
     else:
         result = f"提款失敗：{result}"
     return result
