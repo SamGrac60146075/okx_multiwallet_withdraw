@@ -25,11 +25,12 @@ print(f"餘額: {bal}")
 
 import time
 import random
-if bal>=(len(address_list)*(config_dict['amount']+minfee)):
+if bal>=(len(address_list)*(float(config_dict['amount']['min'])+minfee)):
     for address in address_list:
-        _=fundingAPI.coin_withdraw(ccy=config_dict['token'], amt=config_dict['amount'], dest="4", toAddr=address, pwd="pwd", fee=minfee)
+        randomAmt = round(random.uniform(config_dict['amount']['min'],config_dict['amount']['max']),2)
+        _=fundingAPI.coin_withdraw(ccy=config_dict['token'], amt=randomAmt, dest="4", toAddr=address, pwd="pwd", fee=minfee)
         print(_)
-        print(f"送出提幣需求: {config_dict['amount']} {config_dict['network']} - {address}")
+        print(f"送出提幣需求: {randomAmt} {config_dict['network']} - {address}")
         delay = random.randint(config_dict['delay']['min'],config_dict['delay']['max'])
         for t in range(delay):
             print(f'waiting - {delay-t}s', end="\r")
